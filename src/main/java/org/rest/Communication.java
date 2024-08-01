@@ -18,7 +18,6 @@ public class Communication {
     private String sessionId;
     private final String URL = "http://94.198.50.185:7081/api/users/";
 
-
     public void getSessionId() {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
